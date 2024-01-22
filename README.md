@@ -16,9 +16,6 @@ Now we have a basic debian install with i3VM.
 Restart i3: ```shift+super+R```
 Exit i3: ```shift+super+E```
 
-**Optional fine tuning:**
-    - set bottom bar bigger: ```vi .config/i3/config``` at line 16 set the font(8) bigger(12). restart i3
-
 **Auto resize settings:**
 In virt-manager: menu>view>scale display> ```ALWAYS``` + ```Auto resize VM```
 Known bug: At every cold start need to login then exit i3, then the auto resize should work just fine.
@@ -37,5 +34,8 @@ In the ```GUEST-VM```
 Switch to root user ```su -```
 Edit the fstab to auto mount with every startup: ```vi /etc/fstab```
 Add the following line at bootom:
-```vm-shares	/home/USER/shares virtiofs, defaults 0 0``` (change username)
+```vm-shares /home/USER/shares virtiofs, defaults 0 0``` (change username)
 Reboot the system, filesharing should work now.
+
+**Optional fine tuning:**
+    - set bottom bar bigger: ```vi .config/i3/config``` at line 16 set the font(8) bigger(12). restart i3
