@@ -5,11 +5,12 @@ set -e
 if [ $UID -ne 0 ]; then
     echo "Must be root user to run this script!"
     exit 1
-else
-    echo "This script will setup a bare i3 VM with some neccessary packages."
-    echo "terminal: xfce4-term"
-    echo "file manager: thunar"
 fi
+
+echo "This script will setup a bare i3 VM with some neccessary packages."
+echo "terminal: xfce4-term"
+echo "file manager: thunar"
+
 
 apt update -y
 
