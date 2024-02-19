@@ -26,7 +26,7 @@ Shut down the vm.
 In virt-manager: VM-detials>Memory>Enable shared memory
 In virt-manager: Add hardware>Filesystem
     - Driver: virtiofs
-    - Source path: /home/userOnHost/Public/vm-share
+    - Source path: /home/userOnHost/Public/vm-shares
     - Target path: vm-share
 
 In the ```GUEST-VM```
