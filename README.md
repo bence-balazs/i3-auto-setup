@@ -27,7 +27,7 @@ In virt-manager: VM-detials>Memory>Enable shared memory
 In virt-manager: Add hardware>Filesystem
     - Driver: virtiofs
     - Source path: /home/userOnHost/Public/vm-shares
-    - Target path: vm-share
+    - Target path: vm-shares
 
 In the ```GUEST-VM```
     - ```mkdir ~/shares```
