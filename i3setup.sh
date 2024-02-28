@@ -16,7 +16,7 @@ apt update -y
 
 apt install sudo -y
 
-sudo apt install i3 xorg lightdm vim xfce4-terminal thunar spice-vdagent spice-webdavd -y
+sudo apt install i3 xorg lightdm vim xfce4-terminal thunar spice-vdagent spice-webdavd firefox-esr -y
 
 sudo apt remove i3lock -y
 
